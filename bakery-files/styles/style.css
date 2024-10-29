@@ -384,10 +384,10 @@ main .vert {
 main .vert img {
   filter: FlipV;
   -ms-filter: "FlipV";
-  transform: scaleY(-1);
-  -moz-transform: scaleY(-1);
-  -o-transform: scaleY(-1);
-  -webkit-transform: scaleY(-1);
+  -moz-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
 }
 
 /* Nav */
@@ -828,7 +828,7 @@ main .cumple {
   main .cumple {
     flex-flow: column-reverse wrap;
     justify-content: center;
-    gap: 80px;
+    gap: 70px;
   }
 }
 main .cumple .cumple-img {
@@ -836,7 +836,7 @@ main .cumple .cumple-img {
 }
 @media screen and (max-width: 768px) {
   main .cumple .cumple-img {
-    width: 70%;
+    width: 85%;
   }
 }
 main .cumple .cumple-img img {
@@ -1453,17 +1453,6 @@ main .productos .producto {
     display: flex;
   }
 }
-main .productos .producto p.category {
-  background-color: var(--dark-green);
-  color: var(--white);
-  margin: 0 auto;
-  padding: 3px 5px;
-  width: 100%;
-  text-align: center;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
 main .productos .producto .prod-img {
   width: 100%;
   margin: 0 auto;
@@ -1804,7 +1793,7 @@ footer .footer-soc .social-footer a:hover {
   margin: 200px auto -1px auto;
 }
 .footerdiv img {
-  filter: invert(28%) sepia(23%) saturate(5550%) hue-rotate(154deg) brightness(93%) contrast(87%);
+  filter: invert(34%) sepia(70%) saturate(532%) hue-rotate(127deg) brightness(94%) contrast(88%);
   filter: FlipV;
   -ms-filter: "FlipV";
   transform: scaleY(-1);

@@ -57,7 +57,7 @@ shapeDividerUp();
 function shapeDividerGreenDown() {
     const shapeDividerGreenDownHTML = `
         <div class="shapes green">
-            <img src="imgs/waves-divider.svg">
+            <img src="imgs/intersecting-tilt-angles.svg">
         </div>
     `;
 
@@ -74,7 +74,7 @@ shapeDividerGreenDown();
 function shapeDividerGreenUp() {
     const shapeDividerGreenUpHTML = `
         <div class="shapes green vert">
-            <img src="imgs/waves-divider.svg">
+            <img src="imgs/intersecting-tilt-angles.svg">
         </div>
     `;
 
@@ -91,7 +91,7 @@ shapeDividerGreenUp();
 function shapeDividerFooterUp() {
     const shapeDividerFooterUpHTML = `
         <div class="shapes footerdiv vert">
-            <img src="imgs/waves-divider.svg">
+            <img src="imgs/layered-slants.svg">
         </div>
     `;
 
