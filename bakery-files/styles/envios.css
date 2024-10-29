@@ -1,0 +1,140 @@
+main .cover {
+  padding: 70px;
+}
+@media screen and (max-width: 768px) {
+  main .cover {
+    padding: 50px;
+  }
+}
+main .cover .CTA {
+  width: 100%;
+}
+main .cover .CTA p {
+  margin: 0;
+}
+main .cover .CTA h1 {
+  font-size: 60px;
+  margin: 0 0 20px 0;
+  line-height: 1;
+}
+@media screen and (max-width: 900px) {
+  main .cover .CTA h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .cover .CTA h1 {
+    font-size: 40px;
+  }
+}
+
+main .envios .story {
+  width: 100%;
+  margin: 30px auto 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 30px;
+}
+@media screen and (max-width: 1024px) {
+  main .envios .story {
+    gap: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .envios .story {
+    flex-flow: column-reverse wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
+main .envios .story img {
+  width: 40%;
+  max-height: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 1366px) {
+  main .envios .story img {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .envios .story img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .envios .story img {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+}
+main .envios .story .text {
+  flex: 1;
+  align-self: center;
+}
+@media screen and (max-width: 768px) {
+  main .envios .story .text {
+    width: 100%;
+  }
+}
+
+main #accordionFAQ {
+  margin: 50px auto;
+}
+main #accordionFAQ .accordion-button:not(.collapsed) {
+  color: inherit;
+}
+main #accordionFAQ button.accordion-button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+main #accordionFAQ .accordion-item {
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+main #accordionFAQ .accordion-item .accordion-header {
+  margin: 0;
+}
+main #accordionFAQ .accordion-item .accordion-header .accordion-button::after {
+  font-family: "Font Awesome 6 Free";
+  background-image: none;
+  content: "\f078";
+  --bs-accordion-btn-icon-width: initial;
+}
+main #accordionFAQ .accordion-item .accordion-header .accordion-button::after:not(.collapsed) {
+  font-family: "Font Awesome 6 Free";
+  background-image: none;
+  content: "\f077";
+  --bs-accordion-btn-icon-width: initial;
+}
+main #accordionFAQ .accordion-item .accordion-header .accordion-button {
+  font-family: var(--font);
+  color: var(--dark-gray);
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  background-color: #ffe3ec;
+  border-radius: 5px;
+}
+main #accordionFAQ .accordion-item .accordion-body {
+  border: 0;
+  border-radius: 0 0 5px 5px;
+  padding-bottom: 30px;
+  font-family: var(--font);
+  color: var(--dark-gray);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.7;
+}
+main #accordionFAQ .accordion-item .accordion-body ul li {
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  main #accordionFAQ .accordion-item .accordion-body ul li {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=envios.css.map */

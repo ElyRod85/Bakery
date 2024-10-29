@@ -1,0 +1,25 @@
+main .cover { 
+    padding: 70px;
+    @media screen and (max-width: 768px) { padding: 50px; }
+    .CTA { width: 100%;
+        p { margin: 0; }
+        h1 { font-size: 60px; margin: 0 0 20px 0; line-height: 1;
+            @media screen and (max-width: 900px) { font-size: 50px; }
+            @media screen and (max-width: 768px) { font-size: 40px; }
+        }
+    }
+}
+
+main .productos { 
+    width: 90%; margin: 0 auto;
+    justify-content: space-evenly;
+    .producto { 
+        @media screen and (max-width: 1280px) {
+            &:last-of-type { display: flex; }
+        }
+        @media screen and (max-width: 1024px) {
+            &:nth-of-type(4) { display: flex; }
+        }
+
+    }
+}

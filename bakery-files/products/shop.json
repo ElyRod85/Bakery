@@ -1,0 +1,404 @@
+[
+    {
+        "name": "Cheesecake de Dulce de Leche",
+        "image": "imgs/productos/cheesecakes-ddl.webp",
+        "category": "Cheesecakes",
+        "price": 1000
+    },
+    {
+        "name": "Cheesecake de Frutos Rojos",
+        "image": "imgs/productos/cheesecakes-frutos-rojos.webp",
+        "category": "Cheesecakes",
+        "price": 1000
+    },
+    {
+        "name": "Cheesecake de Maracuyá",
+        "image": "imgs/productos/cheesecakes-maracuya.webp",
+        "category": "Cheesecakes",
+        "price": 1000
+    },
+    {
+        "name": "Cheesecake de Naranja",
+        "image": "imgs/productos/cheesecakes-naranja.webp",
+        "category": "Cheesecakes",
+        "price": 1000
+    },
+    {
+        "name": "Cheesecake de Pistacho",
+        "image": "imgs/productos/cheesecakes-pistacho.webp",
+        "category": "Cheesecakes",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Arándanos",
+        "image": "imgs/productos/budines-arandanos.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Banana",
+        "image": "imgs/productos/budines-banana.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Chocolate",
+        "image": "imgs/productos/budines-chocolate.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Frutos Rojos",
+        "image": "imgs/productos/budines-frutos-rojos.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Limón",
+        "image": "imgs/productos/budines-limon.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Manzana",
+        "image": "imgs/productos/budines-manzana.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Naranja",
+        "image": "imgs/productos/budines-naranja.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Pera",
+        "image": "imgs/productos/budines-pera.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Vainilla",
+        "image": "imgs/productos/budines-vainilla.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Cupcake de Arándanos",
+        "image": "imgs/productos/cupcakes-arandanos.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Cupcake de Banana",
+        "image": "imgs/productos/cupcakes-banana.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Cupcake de Chocolate",
+        "image": "imgs/productos/cupcakes-chocolate.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Cupcake de Vainilla",
+        "image": "imgs/productos/cupcakes-chocolate-vainilla.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Cupcake de Durazno",
+        "image": "imgs/productos/cupcakes-durazno.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Cupcake de Lima",
+        "image": "imgs/productos/cupcakes-lima.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Cupcake de Limón",
+        "image": "imgs/productos/cupcakes-limon.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Cupcake de Manzana",
+        "image": "imgs/productos/cupcakes-manzana.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Cupcake de Pistacho",
+        "image": "imgs/productos/cupcakes-pistacho.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Cupcake Red Velvet",
+        "image": "imgs/productos/cupcakes-red-velvet.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Muffin de Arándanos",
+        "image": "imgs/productos/muffins-arandanos.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Muffin de Chocolate con Chips",
+        "image": "imgs/productos/muffins-chocolate.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Muffin de Manzana",
+        "image": "imgs/productos/muffins-manzana.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Muffin de Nueces",
+        "image": "imgs/productos/muffins-nueces.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Muffin de Pistacho",
+        "image": "imgs/productos/muffins-pistacho.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Muffin Red Velvet",
+        "image": "imgs/productos/muffins-red-velvet.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Muffin de Vainilla",
+        "image": "imgs/productos/muffins-vainilla.webp",
+        "category": "Muffins y Cupcakes",
+        "price": 1000
+    },
+    {
+        "name": "Alfajor Casero",
+        "image": "imgs/productos/pasteleria-alfajor.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Alfajor Casero con Choco Chips",
+        "image": "imgs/productos/pasteleria-alfajor-chocochips.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Bagel",
+        "image": "imgs/productos/pasteleria-bagel.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Bagel con Crema Pastelera",
+        "image": "imgs/productos/pasteleria-bagel-crema-pastelera.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Bagel con Dulce de Leche",
+        "image": "imgs/productos/pasteleria-bagel-ddl.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Bagel con Nutella",
+        "image": "imgs/productos/pasteleria-bagel-nutella.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Brownie",
+        "image": "imgs/productos/pasteleria-brownie-chocolate.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Lemonie",
+        "image": "imgs/productos/pasteleria-brownie-limon.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Medialuna",
+        "image": "imgs/productos/pasteleria-medialuna.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Medialuna con Crema Pastelera",
+        "image": "imgs/productos/pasteleria-medialuna-crema-pastelera.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Medialuna con Dulce de Leche",
+        "image": "imgs/productos/pasteleria-medialuna-ddl.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Medialuna con Nutella",
+        "image": "imgs/productos/pasteleria-medialuna-nutella.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Pastel de Arándanos",
+        "image": "imgs/productos/pasteles-arandanos.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Pastel de Banana",
+        "image": "imgs/productos/pasteles-banana.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Pastel de Calabaza",
+        "image": "imgs/productos/pasteles-calabaza.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Pastel de Frutillas con Crema Pastelera",
+        "image": "imgs/productos/pasteles-frutilla-pastelera.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Pastel de Frutos Rojos con Crema Pastelera",
+        "image": "imgs/productos/pasteles-frutos-rojos-pastelera.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Pastel de Manzana",
+        "image": "imgs/productos/pasteles-manzana.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Pastel de Nueces Pecan",
+        "image": "imgs/productos/pasteles-pecan-pie.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Pastel de Pistacho",
+        "image": "imgs/productos/pasteles-pistacho.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Lemon Pie",
+        "image": "imgs/productos/pasteles-lemon-pie.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Key Lime Pie",
+        "image": "imgs/productos/pasteles-key-lime-pie.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Torta Brownie",
+        "image": "imgs/productos/tortas-brownie.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta de Zanahoria con Nueces",
+        "image": "imgs/productos/tortas-carrot-cake.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta de Chocolate con Bombones",
+        "image": "imgs/productos/tortas-chocolate-bombon.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta de Chocolate Clásica",
+        "image": "imgs/productos/tortas-chocolate-clasica.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta de Chocolate con Ferrero Rocher",
+        "image": "imgs/productos/tortas-chocolate-ferrero.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta de Chocolate Oreo",
+        "image": "imgs/productos/tortas-chocolate-oreo.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Chocotorta Oreo",
+        "image": "imgs/productos/tortas-chocotorta-oreo.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Chocotorta Tradicional",
+        "image": "imgs/productos/tortas-chocotorta.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta de Chocolate con Frutos Rojos",
+        "image": "imgs/productos/tortas-frutos-rojos.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta Matilda",
+        "image": "imgs/productos/tortas-matilda.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Pavlova con Frutos Rojos",
+        "image": "imgs/productos/tortas-pavlova-frutos-rojos.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Pavlova con Frutos Secos",
+        "image": "imgs/productos/tortas-pavlova-frutos-secos.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta Red Velvet",
+        "image": "imgs/productos/tortas-red-velvet.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta Rogel",
+        "image": "imgs/productos/tortas-rogel.webp",
+        "category": "Tortas",
+        "price": 1000
+    }
+]

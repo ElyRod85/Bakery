@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Pastel de Arándanos",
+        "image": "imgs/productos/pasteles-arandanos.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Pastel de Banana",
+        "image": "imgs/productos/pasteles-banana.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Pastel de Calabaza",
+        "image": "imgs/productos/pasteles-calabaza.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Pastel de Frutillas con Crema Pastelera",
+        "image": "imgs/productos/pasteles-frutilla-pastelera.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Pastel de Frutos Rojos con Crema Pastelera",
+        "image": "imgs/productos/pasteles-frutos-rojos-pastelera.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Pastel de Manzana",
+        "image": "imgs/productos/pasteles-manzana.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Pastel de Nueces Pecan",
+        "image": "imgs/productos/pasteles-pecan-pie.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Pastel de Pistacho",
+        "image": "imgs/productos/pasteles-pistacho.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Lemon Pie",
+        "image": "imgs/productos/pasteles-lemon-pie.webp",
+        "category": "Pasteles",
+        "price": 1000
+    },
+    {
+        "name": "Key Lime Pie",
+        "image": "imgs/productos/pasteles-key-lime-pie.webp",
+        "category": "Pasteles",
+        "price": 1000
+    }
+]

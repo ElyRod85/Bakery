@@ -1,0 +1,121 @@
+main .cover {
+  padding: 70px;
+}
+@media screen and (max-width: 768px) {
+  main .cover {
+    padding: 50px;
+  }
+}
+main .cover .CTA {
+  width: 100%;
+}
+main .cover .CTA p {
+  margin: 0;
+}
+main .cover .CTA h1 {
+  font-size: 60px;
+  margin: 0 0 20px 0;
+  line-height: 1;
+}
+@media screen and (max-width: 900px) {
+  main .cover .CTA h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .cover .CTA h1 {
+    font-size: 40px;
+  }
+}
+
+main .about .story {
+  width: 100%;
+  margin: 30px auto 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+@media screen and (max-width: 768px) {
+  main .about .story {
+    flex-flow: column-reverse wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
+main .about .story img {
+  width: 50%;
+  max-height: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  main .about .story img {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+}
+main .about .story .text {
+  flex: 1;
+  align-self: center;
+  text-align: right;
+  padding-right: 100px;
+}
+@media screen and (max-width: 768px) {
+  main .about .story .text {
+    width: 100%;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .about .story .text {
+    padding-right: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .about .story .text {
+    padding-right: 0;
+  }
+}
+main .about .story .text p {
+  font-size: 26px;
+}
+@media screen and (max-width: 1366px) {
+  main .about .story .text p {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main .about .story .text p {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .about .story .text p {
+    font-size: 18px;
+  }
+}
+main .about .rev {
+  flex-flow: row-reverse wrap;
+}
+@media screen and (max-width: 768px) {
+  main .about .rev {
+    flex-flow: column-reverse wrap;
+  }
+}
+main .about .rev .text {
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 0;
+}
+@media screen and (max-width: 1024px) {
+  main .about .rev .text {
+    padding-right: 0;
+    padding-left: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .about .rev .text {
+    padding-left: 0;
+  }
+}/*# sourceMappingURL=nosotros.css.map */

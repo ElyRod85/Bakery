@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Alfajor Casero",
+        "image": "imgs/productos/pasteleria-alfajor.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Alfajor Casero con Choco Chips",
+        "image": "imgs/productos/pasteleria-alfajor-chocochips.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Bagel",
+        "image": "imgs/productos/pasteleria-bagel.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Bagel con Crema Pastelera",
+        "image": "imgs/productos/pasteleria-bagel-crema-pastelera.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Bagel con Dulce de Leche",
+        "image": "imgs/productos/pasteleria-bagel-ddl.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Bagel con Nutella",
+        "image": "imgs/productos/pasteleria-bagel-nutella.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Brownie",
+        "image": "imgs/productos/pasteleria-brownie-chocolate.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Lemonie",
+        "image": "imgs/productos/pasteleria-brownie-limon.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Medialuna",
+        "image": "imgs/productos/pasteleria-medialuna.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Medialuna con Crema Pastelera",
+        "image": "imgs/productos/pasteleria-medialuna-crema-pastelera.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Medialuna con Dulce de Leche",
+        "image": "imgs/productos/pasteleria-medialuna-ddl.webp",
+        "category": "Pastelería",
+        "price": 1000
+    },
+    {
+        "name": "Medialuna con Nutella",
+        "image": "imgs/productos/pasteleria-medialuna-nutella.webp",
+        "category": "Pastelería",
+        "price": 1000
+    }
+]

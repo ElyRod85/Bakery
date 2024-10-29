@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Budín de Arándanos",
+        "image": "imgs/productos/budines-arandanos.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Banana",
+        "image": "imgs/productos/budines-banana.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Chocolate",
+        "image": "imgs/productos/budines-chocolate.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Frutos Rojos",
+        "image": "imgs/productos/budines-frutos-rojos.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Limón",
+        "image": "imgs/productos/budines-limon.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Manzana",
+        "image": "imgs/productos/budines-manzana.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Naranja",
+        "image": "imgs/productos/budines-naranja.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Pera",
+        "image": "imgs/productos/budines-pera.webp",
+        "category": "Budines",
+        "price": 1000
+    },
+    {
+        "name": "Budín de Vainilla",
+        "image": "imgs/productos/budines-vainilla.webp",
+        "category": "Budines",
+        "price": 1000
+    }
+]

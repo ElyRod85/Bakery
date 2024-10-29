@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Cheesecake de Dulce de Leche",
+        "image": "imgs/productos/cheesecakes-ddl.webp",
+        "category": "Cheesecakes",
+        "price": 1000
+    },
+    {
+        "name": "Cheesecake de Frutos Rojos",
+        "image": "imgs/productos/cheesecakes-frutos-rojos.webp",
+        "category": "Cheesecakes",
+        "price": 1000
+    },
+    {
+        "name": "Cheesecake de Maracuyá",
+        "image": "imgs/productos/cheesecakes-maracuya.webp",
+        "category": "Cheesecakes",
+        "price": 1000
+    },
+    {
+        "name": "Cheesecake de Naranja",
+        "image": "imgs/productos/cheesecakes-naranja.webp",
+        "category": "Cheesecakes",
+        "price": 1000
+    },
+    {
+        "name": "Cheesecake de Pistacho",
+        "image": "imgs/productos/cheesecakes-pistacho.webp",
+        "category": "Cheesecakes",
+        "price": 1000
+    }
+]

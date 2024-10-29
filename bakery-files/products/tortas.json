@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Torta Brownie",
+        "image": "imgs/productos/tortas-brownie.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta de Zanahoria con Nueces",
+        "image": "imgs/productos/tortas-carrot-cake.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta de Chocolate con Bombones",
+        "image": "imgs/productos/tortas-chocolate-bombon.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta de Chocolate Clásica",
+        "image": "imgs/productos/tortas-chocolate-clasica.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta de Chocolate con Ferrero Rocher",
+        "image": "imgs/productos/tortas-chocolate-ferrero.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta de Chocolate Oreo",
+        "image": "imgs/productos/tortas-chocolate-oreo.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Chocotorta Oreo",
+        "image": "imgs/productos/tortas-chocotorta-oreo.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Chocotorta Tradicional",
+        "image": "imgs/productos/tortas-chocotorta.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta de Chocolate con Frutos Rojos",
+        "image": "imgs/productos/tortas-frutos-rojos.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta Matilda",
+        "image": "imgs/productos/tortas-matilda.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Pavlova con Frutos Rojos",
+        "image": "imgs/productos/tortas-pavlova-frutos-rojos.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Pavlova con Frutos Secos",
+        "image": "imgs/productos/tortas-pavlova-frutos-secos.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta Red Velvet",
+        "image": "imgs/productos/tortas-red-velvet.webp",
+        "category": "Tortas",
+        "price": 1000
+    },
+    {
+        "name": "Torta Rogel",
+        "image": "imgs/productos/tortas-rogel.webp",
+        "category": "Tortas",
+        "price": 1000
+    }
+]

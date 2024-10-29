@@ -1,0 +1,76 @@
+main .cover { 
+    padding: 70px;
+    @media screen and (max-width: 768px) { padding: 50px; }
+    .CTA { width: 100%;
+        p { margin: 0; }
+        h1 { font-size: 60px; margin: 0 0 20px 0; line-height: 1;
+            @media screen and (max-width: 900px) { font-size: 50px; }
+            @media screen and (max-width: 768px) { font-size: 40px; }
+        }
+    }
+}
+
+main .envios { 
+    .story { width: 100%; margin: 30px auto 0 auto; 
+        display: flex; flex-flow: row wrap; justify-content: space-between; align-items: stretch;
+        gap: 30px; 
+        @media screen and (max-width: 1024px) { gap: 60px; }
+        @media screen and (max-width: 768px) { flex-flow: column-reverse wrap; justify-content: center; align-items: center; 
+            gap: 10px;
+        }
+        img { width: 40%;
+            max-height: 100%;
+            object-fit: cover;
+            @media screen and (max-width: 1366px) { width: 40%; }
+            @media screen and (max-width: 1024px) { width: 50%; }
+            @media screen and (max-width: 768px) { width: 100%; margin: 0 0 20px 0; }
+        }
+        .text { flex: 1; align-self: center;
+
+            @media screen and (max-width: 768px) { width: 100%; }
+        }
+    }
+}
+
+main #accordionFAQ { margin: 50px auto;
+    .accordion-button:not(.collapsed) { color: inherit; }
+    button.accordion-button:focus{ outline: 0; box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
+
+    .accordion-item { border: 0; border-radius: 5px; margin-bottom: 10px; 
+        
+        .accordion-header { margin: 0; 
+            .accordion-button::after {
+                font-family: 'Font Awesome 6 Free';
+                background-image: none;
+                content: "\f078"; 
+                --bs-accordion-btn-icon-width: initial;
+            }
+            .accordion-button::after:not(.collapsed) {
+                font-family: 'Font Awesome 6 Free';
+                background-image: none;
+                content: "\f077"; 
+                --bs-accordion-btn-icon-width: initial;
+            }
+
+            .accordion-button {
+                font-family: var(--font); color: var(--dark-gray); 
+                font-weight: 800; font-size: 20px; letter-spacing: -0.5px;
+                background-color: #ffe3ec;
+                border-radius: 5px;
+                
+            }
+        }
+        .accordion-body {
+            border: 0; border-radius: 0 0 5px 5px;
+            padding-bottom: 30px;
+            font-family: var(--font); color: var(--dark-gray);
+            font-weight: 500; font-size: 18px;
+            line-height: 1.7;
+            ul { 
+                li { font-weight: 500;
+                    @media screen and (max-width: 768px) { font-size: 18px; }
+                }
+            }
+        }
+    }
+}
