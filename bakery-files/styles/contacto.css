@@ -1,0 +1,195 @@
+main .cover {
+  padding: 70px;
+}
+@media screen and (max-width: 768px) {
+  main .cover {
+    padding: 50px;
+  }
+}
+main .cover .CTA {
+  width: 100%;
+}
+main .cover .CTA p {
+  margin: 0;
+}
+main .cover .CTA h1 {
+  font-size: 60px;
+  margin: 0 0 20px 0;
+  line-height: 1;
+}
+@media screen and (max-width: 900px) {
+  main .cover .CTA h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .cover .CTA h1 {
+    font-size: 40px;
+  }
+}
+
+main #accordionFAQ {
+  margin: 50px auto;
+}
+main #accordionFAQ .accordion-button:not(.collapsed) {
+  color: inherit;
+}
+main #accordionFAQ button.accordion-button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+main #accordionFAQ .accordion-item {
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+main #accordionFAQ .accordion-item .accordion-header {
+  margin: 0;
+}
+main #accordionFAQ .accordion-item .accordion-header .accordion-button::after {
+  font-family: "Font Awesome 6 Free";
+  background-image: none;
+  content: "\f078";
+  --bs-accordion-btn-icon-width: initial;
+}
+main #accordionFAQ .accordion-item .accordion-header .accordion-button::after:not(.collapsed) {
+  font-family: "Font Awesome 6 Free";
+  background-image: none;
+  content: "\f077";
+  --bs-accordion-btn-icon-width: initial;
+}
+main #accordionFAQ .accordion-item .accordion-header .accordion-button {
+  font-family: var(--font);
+  color: var(--dark-gray);
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  background-color: #ffe3ec;
+  border-radius: 5px;
+}
+main #accordionFAQ .accordion-item .accordion-body {
+  border: 0;
+  border-radius: 0 0 5px 5px;
+  padding-bottom: 30px;
+  font-family: var(--font);
+  color: var(--dark-gray);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.7;
+}
+main #accordionFAQ .accordion-item .accordion-body ul li {
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  main #accordionFAQ .accordion-item .accordion-body ul li {
+    font-size: 18px;
+  }
+}
+
+main .contact {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+@media screen and (max-width: 768px) {
+  main .contact {
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+}
+main .contact .contactInfo {
+  width: 48%;
+}
+@media screen and (max-width: 1024px) {
+  main .contact .contactInfo {
+    width: 38%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .contact .contactInfo {
+    width: 100%;
+  }
+}
+main .contact .contactForm {
+  width: 48%;
+}
+@media screen and (max-width: 1024px) {
+  main .contact .contactForm {
+    width: 58%;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .contact .contactForm {
+    width: 100%;
+  }
+}
+main .contact .contactForm form {
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+main .contact .contactForm form label {
+  margin: 20px 0 10px 0;
+  color: var(--dark-grey);
+  font-weight: 700;
+}
+main .contact .contactForm form input, main .contact .contactForm form textarea {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  border-radius: 5px;
+  border: 2px solid var(--medium-gray);
+  padding: 7px 12px;
+  width: 100%;
+  outline: 0;
+}
+@media screen and (max-width: 1050px) {
+  main .contact .contactForm form input, main .contact .contactForm form textarea {
+    display: block;
+    width: 100%;
+  }
+}
+main .contact .contactForm form input:focus, main .contact .contactForm form textarea:focus {
+  border: 2px solid var(--dark-green);
+}
+main .contact .contactForm form input[type=submit] {
+  margin: 30px auto 15px auto;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  border-radius: 0;
+  padding: 18px 25px;
+  background-color: var(--dark-pink);
+  transition: 300ms;
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 800;
+  line-height: 1;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  main .contact .contactForm form input[type=submit] {
+    padding: 13px 20px;
+  }
+}
+main .contact .contactForm form input[type=submit]:hover {
+  background-color: var(--darker-pink);
+  text-decoration: none;
+  transition: 300ms;
+}
+main .contact .contactForm .emailPhone {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+main .contact .contactForm .emailPhone .email, main .contact .contactForm .emailPhone .phone {
+  width: 49%;
+}/*# sourceMappingURL=contacto.css.map */

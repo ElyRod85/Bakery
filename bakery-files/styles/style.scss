@@ -731,34 +731,45 @@ main {
         gap: 30px 0;
         .producto { 
             width: 19%; display: flex; flex-flow: column wrap; justify-content: space-between;
-            @media screen and (max-width: 1280px) {
+            border: 1px solid var(--medium-gray); border-radius: 5px;
+            @media screen and (max-width: 1366px) {
                 width: 24%;
                 &:last-of-type { display: none; }
             }
-            @media screen and (max-width: 1024px) {
+            @media screen and (max-width: 1280px) {
                 width: 32%; 
                 &:nth-of-type(4) { display: none; }
             }
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 900px) {
                 width: 48%;
                 &:nth-of-type(4) { display: flex; }
             }
-            @media screen and (max-width: 520px) {
+            @media screen and (max-width: 620px) {
                 width: 100%; 
                 &:nth-of-type(4) { display: flex; }
                 &:last-of-type { display: flex; }
             }
 
-            .prod-img { width: 100%; margin: 0 auto;
+            .prod-img { width: 100%; margin: 0 auto; border-radius: 5px;
                 img { width: 100%; }
             }
             h3.prod-name { padding: 0 5px; margin: 15px auto; color: var(--dark-gray); font-size: 26px;
                 text-align: center; line-height: 1; 
                 @media screen and (max-width: 768px) { font-size: 22px; hyphens: auto; }
             }
+            a.product-link h3 {
+                transition: 300ms;
+                &:hover { color: var(--dark-green); transition: 300ms; }
+            }
+            a.product-link {
+                text-decoration: none;
+                &:hover { text-decoration: none; }
+            }
             p.price { color: var(--dark-gray); text-align: center; line-height: 1; padding: 0 5px; margin: 0 auto 20px auto; }
             .prod-btns { 
                 width: 100%; display: flex; flex-flow: row wrap; justify-content: space-between; align-items: center; align-content: center;
+                padding: 0 15px 15px 15px;
+
                 a.prod-btn { width: 49%; text-decoration: none; color: var(--white); font-weight: 800; font-size: 16px;
                     background-color: var(--dark-pink); transition: 300ms;
                     padding: 10px 20px; text-align: center;

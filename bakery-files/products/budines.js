@@ -9,8 +9,10 @@ window.onload = () => {
                 productDiv.classList.add("producto");
 
                 productDiv.innerHTML = `
+                    <a href="producto.html" class="product-link">
                     <img src="${product.image}" alt="${product.name}" class="prod-img">
                     <h3 class="prod-name">${product.name}</h3>
+                    </a>
                     <p class="price">$${product.price}</p>
                     <div class="prod-btns">
                         <a href="#" class="prod-btn">Comprar</a>

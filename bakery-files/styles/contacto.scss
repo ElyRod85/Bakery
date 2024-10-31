@@ -1,0 +1,95 @@
+main .cover { 
+    padding: 70px;
+    @media screen and (max-width: 768px) { padding: 50px; }
+    .CTA { width: 100%;
+        p { margin: 0; }
+        h1 { font-size: 60px; margin: 0 0 20px 0; line-height: 1;
+            @media screen and (max-width: 900px) { font-size: 50px; }
+            @media screen and (max-width: 768px) { font-size: 40px; }
+        }
+    }
+}
+
+main #accordionFAQ { margin: 50px auto;
+    .accordion-button:not(.collapsed) { color: inherit; }
+    button.accordion-button:focus{ outline: 0; box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
+
+    .accordion-item { border: 0; border-radius: 5px; margin-bottom: 10px; 
+        
+        .accordion-header { margin: 0; 
+            .accordion-button::after {
+                font-family: 'Font Awesome 6 Free';
+                background-image: none;
+                content: "\f078"; 
+                --bs-accordion-btn-icon-width: initial;
+            }
+            .accordion-button::after:not(.collapsed) {
+                font-family: 'Font Awesome 6 Free';
+                background-image: none;
+                content: "\f077"; 
+                --bs-accordion-btn-icon-width: initial;
+            }
+
+            .accordion-button {
+                font-family: var(--font); color: var(--dark-gray); 
+                font-weight: 800; font-size: 20px; letter-spacing: -0.5px;
+                background-color: #ffe3ec;
+                border-radius: 5px;
+                
+            }
+        }
+        .accordion-body {
+            border: 0; border-radius: 0 0 5px 5px;
+            padding-bottom: 30px;
+            font-family: var(--font); color: var(--dark-gray);
+            font-weight: 500; font-size: 18px;
+            line-height: 1.7;
+            ul { 
+                li { font-weight: 500;
+                    @media screen and (max-width: 768px) { font-size: 18px; }
+                }
+            }
+        }
+    }
+}
+
+main .contact { 
+    width: 90%; 
+    display: flex; flex-flow: row wrap; justify-content: space-between; align-items: flex-start; align-content: flex-start;
+    @media screen and (max-width: 768px) { flex-flow: column wrap; justify-content: center; }
+    .contactInfo {
+        width: 48%;
+        @media screen and (max-width: 1024px) { width: 38%; }
+        @media screen and (max-width: 768px) { width: 100%; }
+    }
+    .contactForm {
+        width: 48%;
+        @media screen and (max-width: 1024px) { width: 58%; }
+        @media screen and (max-width: 768px) { width: 100%; }
+
+        form { width: 100%; font-size: 18px; 
+            display: flex; flex-flow: column wrap; justify-content: center;
+            label { margin: 20px 0 10px 0; color: var(--dark-grey); font-weight: 700; }
+            input, textarea { font-size: 18px; margin: 0 0 10px 0;
+                border-radius: 5px; border: 2px solid var(--medium-gray); 
+                padding: 7px 12px; width: 100%; outline: 0;
+                @media screen and (max-width: 1050px) { display: block; width: 100%; }
+                &:focus { border: 2px solid var(--dark-green); }
+            }
+            input[type=submit] { margin: 30px auto 15px auto;
+                border: 0; outline: 0; font-size: 18px; border-radius: 0;
+                padding: 18px 25px; background-color: var(--dark-pink); transition: 300ms;
+                color: var(--white); text-decoration: none;
+                font-weight: 800; line-height: 1; width: 100%;
+                @media screen and (max-width: 768px) { padding: 13px 20px; }
+                &:hover { background-color: var(--darker-pink); text-decoration: none; transition: 300ms; }
+            }
+        }
+
+        .emailPhone { width: 100%; margin: 0 auto;
+            display: flex; flex-flow: row wrap; justify-content: space-between; align-items: flex-start; align-content: flex-start;
+            .email, .phone { width: 49%; }
+        }
+    }
+}
+

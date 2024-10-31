@@ -9,10 +9,10 @@
         <meta name="copyright" content="This portfolio project belongs to Eleonora Rodriguez"/>
       
         <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Catita Bakery | Eleonora Rodriguez Portfolio Project"/>
+        <meta property="og:title" content="Cheesecake de Frutos Rojos | Catita Bakery | Eleonora Rodriguez Portfolio Project"/>
         <meta property="og:url" content="https://ellie-portfolio.com/"/>
         <meta property="og:image" content="./imgs/share-img.webp"/>
-        <meta name="twitter:description" content="Catita Bakery | Eleonora Rodriguez Portfolio Project">
+        <meta name="twitter:description" content="Cheesecake de Frutos Rojos | Catita Bakery | Eleonora Rodriguez Portfolio Project">
         <meta name="twitter:image" content="./imgs/share-img.webp">
       
         <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -20,9 +20,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
         <link rel="stylesheet" href="styles/style.css">
-        <link rel="stylesheet" href="styles/locales.css">
+        <link rel="stylesheet" href="styles/products.css">
 
-        <title>Locales | Catita Bakery | Eleonora Rodriguez Portfolio Project</title>
+        <title>Cheesecake de Frutos Rojos | Catita Bakery | Eleonora Rodriguez Portfolio Project</title>
     </head>
 <body>
     <header id="my-header">
@@ -64,7 +64,7 @@
                         <a class="dropdown-item" href="pasteleria.html">Pastelería</a>
                         <a class="dropdown-item" href="shop.html">Ver todo</a>
                     </div>
-                    <a class="nav-item nav-link disabled" href="locales.html">Locales</a>
+                    <a class="nav-item nav-link" href="locales.html">Locales</a>
                     <a class="nav-item nav-link" href="envios.html">Envíos</a>
                     <a class="nav-item nav-link" href="nosotros.html">Sobre Nosotros</a>
                     <a class="nav-item nav-link" href="contacto.html">Contacto</a>
@@ -80,151 +80,106 @@
     </header>
 
     <main>
-
-        <div class="cover">
-            <div class="CTA">
-                <h1>Locales</h1>
-                <p>¡Disfrutá nuestras delicias en Buenos Aires!</p>
-            </div>
-        </div>
-        <shape-divider-down></shape-divider-down>
-
-        <section class="locales">
-            <div class="locales-boxes">
-                <div class="local-box">
-                    <img src="imgs/local-bakery.webp" alt="Catita Bakery">
-                    <h3>Catita Bakery</h3>
-                    <p class="desc">Juan B. Ambrosetti 361, Caballito, CABA, Argentina</p>
-                    <p class="desc">Lunes a Sábados de 16 a 20hs</p>
-                    <p class="closed">Domingos cerrado</p>
-                    <p class="desc"><a href="https://www.instagram.com/catitabakery" rel="nofollow" target="_blank">@CatitaBakery</a></p>
-                    <p>En el local podrás encontrar mucha variedad de mini tortas, cuadrados, alfajores, chipas y mucho más.</p>
-                    <p>¡Podes combinar cajas para regalar o disfrutar en casa!</p>
-                    <p>El menú varia por día, para que todos nuestros productos sean super frescos.</p>
-                </div>
-                <div class="local-box">
-                    <img src="imgs/local-cafetin.webp" alt="Catita Cafetín">
-                    <h3>Catita Cafetín</h3>
-                    <p class="desc">Juan B. Ambrosetti 375, Caballito, CABA, Argentina</p>
-                    <p class="desc">Lunes a Viernes de 8.30 a 20hs</p>
-                    <p class="desc">Sábados y Feriados de 9 a 20hs</p>
-                    <p class="closed">Domingos cerrado</p>
-                    <p class="desc"><a href="https://www.instagram.com/catitacafetin" rel="nofollow" target="_blank">@CatitaCafetin</a></p>
-                    <p>Acercate a desayunar, brunchear o merendar con nosotros.</p>
-                    <p>En el local encontrarás nuestros productos estrella, porciones de tortas, laminados, tostados, combos y mucho mas!</p>
-                    <p>No tomamos reservas, somos pet friendly.</p>
-                </div>
-            </div>
+        <section class="breadcrumbs">
+            <a href="shop.html">Tienda</a> <i class="fa-solid fa-chevron-right"></i> <a href="cheesecakes.html">Cheesecakes</a> <i class="fa-solid fa-chevron-right"></i> Cheesecake de Frutos Rojos
         </section>
 
-        <shape-divider-green-up></shape-divider-green-up>
-        <section class="newsletter">
-            <div class="news-text">
-                <h2>Unite a Club Catita</h2>
-                <p>¡Suscribite gratis a nuestro boletín de noticias y recibí descuentos y acceso anticipado a nuestros nuevos lanzamientos!</p>
+        <section class="productDiv">
+            <div class="productImg">
+                <img src="imgs/productos/cheesecakes-frutos-rojos.webp" alt="Cheesecake de Frutos Rojos">
             </div>
-            <div class="form">
+            <div class="productInfo">
+                <h1>Cheesecake de Frutos Rojos</h1>
+                <p>Cremoso cheesecake cocido con base de galletitas de vainilla. Decorado con mermelada casera y frutos rojos congelados.</p>
+                <p class="precio">$1000</p>
+                <p class="ingredientes">Ingredientes: Harina de trigo, manteca, queso crema, crema de leche, azúcar, gelatina sin sabor, frutillas, frambuesas, arándanos.</p>
                 <form>
-                    <label for="email">Email:</label>
-                    <input id="email" type="email" name="email" placeholder="E-mail" />
-                    <input type="submit" value="Suscribirme" />
+                    <label for="size">Tamaño:</label>
+                    <select id="size" name="size" required>
+                      <option value="grande">Grande (2kg, 10 porciones, 22cm)</option>
+                      <option value="Chico">Chico (1kg, 6 porciones, 18cm)</option>
+                    </select>
+
+                    <label for="cantidad">Cantidad:</label>
+                    <input id="cantidad" name="cantidad" type="number" pattern="[0-9]*" max="50" min="1" value="1">
+
+                    <label for="notas">Aclaraciones o comentarios adicionales:</label>
+                    <textarea id="notas" name="notas" rows="2" cols="30"></textarea>
+
+                    <input type="submit" value="Comprar">
                 </form>
+                <a href="#" class="cartBtn">Agregar al carrito</a>
             </div>
         </section>
-        <shape-divider-green-down></shape-divider-green-down>
 
-        <section class="instagram">
-            <h2>¡Seguinos en Instagram!</h2>
+        <section class="disclaimer">
+            <h2>Importante:</h2>
+            <p>Necesitamos <strong>un mínimo de 48hs</strong> para poder realizar tu pedido.</p>
+            <p>Al finalizar tu compra deberás ingresar la fecha en la que la necesitás y nosotros nos pondremos en contacto.</p>
+            <p>Por favor, no realices la compra si necesitás tu pedido en menos de 48hs. ¡Contactanos por WhatsApp al número <a class="text-link" href="https://api.whatsapp.com/send/?phone=5491123456789&text&type=phone_number&app_absent=0" rel="nofollow" target="_blank">1123456789</a> para que podamos ayudarte!</p>
+        </section>
 
-            <div class="ig-blocks">
-                <div class="ig-feed">
-                    <div class="ig-header">
-                        <div class="profile-meta">
-                            <div class="profile-pic">
-                                <a href="https://www.instagram.com/catitabakery" rel="nofollow" target="_blank">
-                                    <img src="imgs/catita-ig.png" class="profile" alt="Foto de perfil de Instagram de Catita Bakery">
-                                </a>
-                            </div>
-                            <div class="profile-data">
-                                <p class="name">Catita Bakery</p>
-                                <p class="handle">@CatitaBakery</p>
-                            </div>
-                        </div>
-                        <div class="follow">
-                            <a href="https://www.instagram.com/catitabakery" rel="nofollow" target="_blank">¡Seguinos!</a>
-                        </div>
-                    </div>
-                    <div class="ig-body">
-                        <div class="img-ig-post">
-                            <img src="imgs/ig-post1.webp" alt="Post de Instagram, Catita Bakery">
-                        </div>
-                        <div class="img-ig-post">
-                            <img src="imgs/ig-post2.webp" alt="Post de Instagram, Catita Bakery">
-                        </div>
-                        <div class="img-ig-post">
-                            <img src="imgs/ig-post3.webp" alt="Post de Instagram, Catita Bakery">
-                        </div>
-                        <div class="img-ig-post">
-                            <img src="imgs/ig-post4.webp" alt="Post de Instagram, Catita Bakery">
-                        </div>
-                        <div class="img-ig-post">
-                            <img src="imgs/ig-post5.webp" alt="Post de Instagram, Catita Bakery">
-                        </div>
-                        <div class="img-ig-post">
-                            <img src="imgs/ig-post6.webp" alt="Post de Instagram, Catita Bakery">
-                        </div>
-                        <div class="more">
-                            <a href="https://www.instagram.com/catitabakery" rel="nofollow" target="_blank">Ver más</a>
-                        </div>
+        <custom-divider></custom-divider>
+
+
+        <section class="relacionados">
+            <h2>También pueden interesarte...</h2>
+            <div class="productos">
+                <div class="producto">
+                    <a href="producto.html" class="product-link">
+                        <img src="imgs/productos/cheesecakes-ddl.webp" alt="Cheesecake de Dulce de Leche" class="prod-img">
+                        <h3 class="prod-name">Cheesecake de Dulce de Leche</h3>
+                    </a>
+                    <p class="price">$1000</p>
+                    <div class="prod-btns">
+                        <a href="#" class="prod-btn sec">Ver</a>
                     </div>
                 </div>
-                <div class="ig-feed">
-                    <div class="ig-header">
-                        <div class="profile-meta">
-                            <div class="profile-pic">
-                                <a href="https://www.instagram.com/catitacafetin" rel="nofollow" target="_blank">
-                                    <img src="imgs/catita-cafetin-logo.png" class="profile" alt="Foto de perfil de Instagram de Catita Cafetín">
-                                </a>
-                            </div>
-                            <div class="profile-data">
-                                <p class="name">Catita Cafetín</p>
-                                <p class="handle">@CatitaCafetin</p>
-                            </div>
-                        </div>
-                        <div class="follow">
-                            <a href="https://www.instagram.com/catitacafetin" rel="nofollow" target="_blank">¡Seguinos!</a>
-                        </div>
+                <div class="producto">
+                    <a href="producto.html" class="product-link">
+                        <img src="imgs/productos/tortas-frutos-rojos.webp" alt="Torta de Chocolate con Frutos Rojos" class="prod-img">
+                        <h3 class="prod-name">Torta de Chocolate con Frutos Rojos</h3>
+                    </a>
+                    <p class="price">$1000</p>
+                    <div class="prod-btns">
+                        <a href="#" class="prod-btn sec">Ver</a>
                     </div>
-                    <div class="ig-body">
-                        <div class="img-ig-post">
-                            <img src="imgs/ig-post-cafetin1.webp" alt="Post de Instagram, Catita Cafetín">
-                        </div>
-                        <div class="img-ig-post">
-                            <img src="imgs/ig-post-cafetin2.webp" alt="Post de Instagram, Catita Cafetín">
-                        </div>
-                        <div class="img-ig-post">
-                            <img src="imgs/ig-post-cafetin3.webp" alt="Post de Instagram, Catita Cafetín">
-                        </div>
-                        <div class="img-ig-post">
-                            <img src="imgs/ig-post-cafetin4.webp" alt="Post de Instagram, Catita Cafetín">
-                        </div>
-                        <div class="img-ig-post">
-                            <img src="imgs/ig-post-cafetin5.webp" alt="Post de Instagram, Catita Cafetín">
-                        </div>
-                        <div class="img-ig-post">
-                            <img src="imgs/ig-post-cafetin6.webp" alt="Post de Instagram, Catita Cafetín">
-                        </div>
-                        <div class="more">
-                            <a href="https://www.instagram.com/catitacafetin" rel="nofollow" target="_blank">Ver más</a>
-                        </div>
+                </div>
+                <div class="producto">
+                    <a href="producto.html" class="product-link">
+                        <img src="imgs/productos/tortas-pavlova-frutos-rojos.webp" alt="Pavlova con Frutos Rojos" class="prod-img">
+                        <h3 class="prod-name">Pavlova con Frutos Rojos</h3>
+                    </a>
+                    <p class="price">$1000</p>
+                    <div class="prod-btns">
+                        <a href="#" class="prod-btn sec">Ver</a>
+                    </div>
+                </div>
+                <div class="producto">
+                    <a href="producto.html" class="product-link">
+                        <img src="imgs/productos/budines-frutos-rojos.webp" alt="Budín de Frutos Rojos" class="prod-img">
+                        <h3 class="prod-name">Budín de Frutos Rojos</h3>
+                    </a>
+                    <p class="price">$1000</p>
+                    <div class="prod-btns">
+                        <a href="#" class="prod-btn sec">Ver</a>
+                    </div>
+                </div>
+                <div class="producto">
+                    <a href="producto.html" class="product-link">
+                        <img src="imgs/productos/pasteles-frutos-rojos-pastelera.webp" alt="Pastel de Frutos Rojos con Crema Pastelera" class="prod-img">
+                        <h3 class="prod-name">Pastel de Frutos Rojos con Crema Pastelera</h3>
+                    </a>
+                    <p class="price">$1000</p>
+                    <div class="prod-btns">
+                        <a href="#" class="prod-btn sec">Ver</a>
                     </div>
                 </div>
             </div>
-
         </section>
+
 
     </main>
-
 
     <shape-divider-footer-up></shape-divider-footer-up>
     <footer>
@@ -279,7 +234,7 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
