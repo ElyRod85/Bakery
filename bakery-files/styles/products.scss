@@ -2,7 +2,10 @@ main {
     .breadcrumbs { margin: 180px auto 50px auto; width: 90%;
         color: var(--dark-gray); font-weight: 800; font-size: 16px;
         line-height: 1.5;
-        @media screen and (max-width: 990px) { margin: 130px auto 50px auto; }
+        @media screen and (max-width: 11000px) { margin: 200px auto 50px auto; }
+        @media screen and (max-width: 990px) { margin: 150px auto 50px auto; }
+        @media screen and (max-width: 480px) { margin: 200px auto 50px auto; }
+        @media screen and (max-width: 350px) { margin: 220px auto 50px auto; }
         a { text-decoration: none; transition: 300ms; 
             color: var(--dark-pink);
             &:hover { color: var(--dark-green); transition: 300ms; }

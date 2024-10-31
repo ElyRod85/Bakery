@@ -6,9 +6,24 @@ main .breadcrumbs {
   font-size: 16px;
   line-height: 1.5;
 }
+@media screen and (max-width: 11000px) {
+  main .breadcrumbs {
+    margin: 200px auto 50px auto;
+  }
+}
 @media screen and (max-width: 990px) {
   main .breadcrumbs {
-    margin: 130px auto 50px auto;
+    margin: 150px auto 50px auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .breadcrumbs {
+    margin: 200px auto 50px auto;
+  }
+}
+@media screen and (max-width: 350px) {
+  main .breadcrumbs {
+    margin: 220px auto 50px auto;
   }
 }
 main .breadcrumbs a {
